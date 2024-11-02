@@ -17,8 +17,11 @@ Replace this text with the contents of the relevant crash report
 found in /.minecraft/crash-reports/crash-year-month-day_forgeversion-fml.txt
 ```
 
-**Screenshots**
+**Server Version**
+The current version of the server (the version described in the latest changelog, i.e. `v0.76.3`)
+
+**Screenshots (Optional)**
 If applicable, add screenshots to help explain your problem.
 
-**Additional Context**
+**Additional Context (Optional)**
 Any additional context to describe the crash.
