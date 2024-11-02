@@ -17,11 +17,14 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
+**Server Version**
+The current version of the server (the version described in the latest changelog, i.e. `v0.76.3`)
+
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshots (Optional)**
 If applicable, add screenshots to help explain your problem.
 
-**Additional context**
+**Additional context (Optional)**
 Add any other context about the problem here.
