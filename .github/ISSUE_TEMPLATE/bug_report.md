@@ -2,7 +2,7 @@
 name: Bug report
 about: Report a bug or problem with the server
 title: "[Bug]"
-labels: bug
+labels: bug, feature
 assignees: McSnurtle
 
 ---
