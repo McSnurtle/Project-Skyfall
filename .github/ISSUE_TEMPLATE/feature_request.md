@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea or mechanic to add or remove from the server
-title: "+"
+title: "[Feature]"
 labels: feature
 assignees: McSnurtle
 
