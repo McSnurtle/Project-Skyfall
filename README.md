@@ -10,6 +10,6 @@ Originally intended to be a brutal, 1:1 earth-scale factory planning, city plann
 Changelogs can be found on the linked Project page, found [here](<https://github.com/McSnurtle/projects/1/>).
 
 
-**Please do __not__ post any issues here, as they will most likely be ignored! Instead, submit one [here](<https://github.com/McSnurlte/projects/1/>) on the Project page. This repo is exclusively used for permissions and modlist downloads!**
+**Please do __not__ post any issues here, as they will most likely be ignored! Instead, submit one [here](<https://github.com/users/McSnurtle/projects/1/views/5>) on the Project page. This repo is exclusively used for permissions and modlist downloads!**
 
 (Image and gameplay preview currently unavailable)
