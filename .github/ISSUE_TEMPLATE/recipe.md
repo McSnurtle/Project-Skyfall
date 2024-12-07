@@ -1,5 +1,5 @@
 ---
-name: Recipe Suggestion
+name: Recipe Request
 about: Suggest a recipe or means of obtaining an item
 title: "[Recipe] Terracotta dyeing recipe"
 labels: recipe
