@@ -20,16 +20,18 @@ What ingredients and what order should the recipe require. If a recipe removal, 
 All items should have quantities, if "x" followed by a number is not in front of each ingredient, the amount is assumed to be any.
 If the items being used should be returned (not consumed by the recipe), this should be denoted with "R" in brackets (i.e. [R])  or under Additional Context.
 **Note**: please fill in the slots and leave the slots that are unfilled. Changing the amounts or 
-| 1x Terracotta |                         |                |
-|---------------|-------------------------|----------------|
-|               | 1x Dye (any colour) [R] |                |
-|               |                         |                |
+| Crafting Grid | Column 1                | Column 2       | Column 3 |
+|---------------|-------------------------|----------------|----------|
+| Row 1         | 1x Terracotta           |                |          |
+| Row 2         | 1x Dye (any colour) [R] |                |          |
+| Row 3         |                         |                |          |
 
 PRODUCES:
 
-| 1x Dyed Terracotta | 1x Dye (any colour) |
-|--------------------|---------------------|
-|                    |                     |
+| Recipe Output      | Column 1           | Column 2            |
+|--------------------|--------------------|---------------------|
+| Row 1              | 1x Dyed Terracotta | 1x Dye (any colour) |
+| Row 2              |                    |                     |
 
 **Additional Context**
 Why or what inspired you to come up with this recipe (or request it's removal)?
