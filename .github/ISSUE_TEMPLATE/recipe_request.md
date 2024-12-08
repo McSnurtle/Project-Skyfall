@@ -16,7 +16,7 @@ Should the recipe be shapeless? Meaning it's ingredients could be placed anywher
 > Yes.
 
 **The recipe in question?**
-What ingredients and what order should the recipe require. If a recipe removal, specify the pre-existing recipe in question.
+What ingredients and what order should the recipe require. If a recipe removal, specify the pre-existing recipe in question. <br>
 **Note**: please fill in the slots and leave the slots that are unfilled. Changing the amounts or layout of slots will render your suggestion invalid!
  - All items should have quantities, if "x" followed by a number is not in front of each ingredient, the amount is assumed to be any.
  - If the items being used should be returned (not consumed by the recipe), this should be denoted with "R" in brackets (i.e. [R])  or under Additional Context.
