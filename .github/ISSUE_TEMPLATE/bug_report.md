@@ -22,6 +22,10 @@ Steps to reproduce the behavior:
 The current version of the server (the version described in the latest changelog, i.e. `v0.76.3`)
 > vX.Y.Z
 
+**Singleplayer**
+Was this bug found in singleplayer (yes/no)?
+> No
+
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
 > He did not fly into the sky
