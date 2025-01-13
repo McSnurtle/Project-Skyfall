@@ -18,6 +18,10 @@ Drag and drop the .txt file for the relevant crash below this line of text. The 
 The current version of the server (the version described in the latest changelog, i.e. `v0.76.3`)
 > v1.4.2
 
+**Singleplayer**
+Did the crash happen in singleplayer (yes/no)?
+> Yes
+
 **Screenshots (Optional)**
 If applicable, add screenshots to help explain your problem.
 
