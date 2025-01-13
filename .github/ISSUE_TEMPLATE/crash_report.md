@@ -9,20 +9,18 @@ assignees: McSnurtle
 
 **When was the crash**
 A concise description of what you were doing before the game crashed
+> The crash happened while attempting to bomb my friend's base.
 
 **Crash Log**
-If the log file is too long to paste below, submit a link to a gist or upload the crash report as an attachment.
-```
-Replace this text with the contents of the relevant crash report
-found in /.minecraft/crash-reports/crash-year-month-day_forgeversion-fml.txt
-or drag and drop the crash report below it.
-```
+Drag and drop the .txt file for the relevant crash below this line of text. The crash report will be found in %appdata% then .minecraft/ crash-reports/. Drag the crash report with the correct date and timestamp below.
 
 **Server Version**
 The current version of the server (the version described in the latest changelog, i.e. `v0.76.3`)
+> v1.4.2
 
 **Screenshots (Optional)**
 If applicable, add screenshots to help explain your problem.
 
 **Additional Context (Optional)**
 Any additional context to describe the crash.
+> None of the innocent civilians survived the explosion. Rip.
