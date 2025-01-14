@@ -1,0 +1,18 @@
+{
+	"modConfig": {
+		"fov": 60.0,
+		"onlyAssistController": true,
+		"aimBlock": false,
+		"blockRange": 7.0,
+		"miningInteractionDuration": 500,
+		"miningAssistanceDuration": 600,
+		"miningAimForce": 7.0,
+		"aimEntity": true,
+		"entityRange": 5.0,
+		"attackInteractionSpeed": 0.5,
+		"attackInteractionDuration": 1000,
+		"attackAssistanceDuration": 1100,
+		"attackAimForce": 7.0,
+		"stopAttackOnReached": false
+	}
+}
