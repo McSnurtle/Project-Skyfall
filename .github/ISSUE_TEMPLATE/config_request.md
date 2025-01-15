@@ -1,8 +1,8 @@
 ---
-name: Default Request
+name: Config Request
 about: Request a setting to have a new default option
-title: "[Setting]"
-labels: default, low-priority
+title: "[Config]"
+labels: config, low-priority
 assignees: McSnurtle
 
 ---
