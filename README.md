@@ -1,3 +1,6 @@
+## NOTICE:
+This is the highly experimental, acedium version of the modpack. This can **only** run on NVidia hardware, will get updated *after* the main dh (or Distant Horizons) "stable" branch. Use this if it gives you more performance than the other versions!
+
 # Project-Skyfall
 The Minecraft server nobody asked for, but everybody needs. Factorio, Frostpunk, Stardew Valley, and all the good of Minecraft, all in one.
 Originally intended to be a brutal, 1:1 earth-scale factory planning, city planning, logistics nightmare (structural integrity was even considered!), turned into a beautiful clash of exploration, territory expansion, diplomatic relations, and of course city management.
