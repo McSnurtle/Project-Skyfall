@@ -4,6 +4,7 @@ about: Request a setting to have a new default option
 title: "[Config]"
 labels: config, low-priority
 assignees: McSnurtle
+projects: ["McSnurtle/1"]
 
 ---
 Note: Please only fill out and submit this issue if you believe everybody should have the setting how you describe

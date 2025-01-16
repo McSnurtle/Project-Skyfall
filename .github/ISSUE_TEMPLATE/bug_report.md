@@ -4,6 +4,7 @@ about: Report a bug or problem with the server
 title: "[Bug]"
 labels: bug
 assignees: McSnurtle
+projects: ["McSnurtle/1"]
 
 ---
 

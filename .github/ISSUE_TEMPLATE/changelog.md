@@ -3,7 +3,8 @@ name: Changelog
 about: A log of all the changes made in an update
 title: "Skyfall Update vX.Y.Z"
 labels: documentation
-assignees:
+assignees: "McSnurtle"
+projects: ["McSnurtle/1"]
 
 ---
 
