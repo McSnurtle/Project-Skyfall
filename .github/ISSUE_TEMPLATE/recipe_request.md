@@ -4,6 +4,7 @@ about: Suggest a recipe or means of obtaining an item
 title: "[Recipe] Terracotta dyeing recipe"
 labels: recipe
 assignees: McSnurtle
+projects: ["McSnurtle/1"]
 
 ---
 
