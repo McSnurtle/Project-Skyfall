@@ -1,0 +1,188 @@
+{
+	"dynamicOnLoad": false,
+	"ticksRevealed": 40,
+	"animationMove": false,
+	"animationFade": false,
+	"animationSpeed": 2.0,
+	"animationSpeeds": {
+		"moveIn": 0.0,
+		"moveOut": 0.0,
+		"fadeIn": 0.0,
+		"fadeOut": 0.0
+	},
+	"revealType": "Stacked",
+	"events": {
+		"onScreenOpen": "Reveal",
+		"onMoving": "Hide",
+		"onStandingStill": "Hide",
+		"onPauseScreen": "Hide",
+		"onSneaking": "Nothing",
+		"onFlying": "Nothing",
+		"onUsingItem": false,
+		"onMining": false,
+		"onSwinging": false,
+		"onAttacking": false
+	},
+	"statusEffectTimer": true,
+	"defaultValues": {
+		"speedMultiplier": 1.0,
+		"distance": 60,
+		"maximumFade": 0.0
+	},
+	"health": {
+		"policy": "Changing"
+	},
+	"hunger": {
+		"policy": "Low"
+	},
+	"revealHungerWhenHoldingFoodItem": true,
+	"air": {
+		"policy": "NotFull"
+	},
+	"armor": {
+		"policy": "Changing"
+	},
+	"experience": {
+		"active": true,
+		"onChange": true
+	},
+	"experienceBar": {
+		"active": true,
+		"onChange": true
+	},
+	"revealExperienceTextOnTargetingEnchantingBlock": true,
+	"mountJumpBar": {
+		"active": true,
+		"onChange": true
+	},
+	"mountHealth": {
+		"policy": "Changing"
+	},
+	"statusEffects": {
+		"active": true,
+		"onChange": false
+	},
+	"hidePersistentStatusEffects": true,
+	"showHiddenStatusEffects": false,
+	"hotbar": {
+		"hotbar": {
+			"active": true,
+			"onChange": true
+		},
+		"onSlotChange": true,
+		"onLowDurability": true,
+		"durabilityPercentage": 10,
+		"durabilityTotal": 20,
+		"maximumFadeHotbarItems": 0.0,
+		"revealExperienceTextWithHotbar": true,
+		"hideTooltip": false
+	},
+	"scoreboard": {
+		"scoreboard": {
+			"active": true,
+			"onChange": true
+		},
+		"onScoreChange": true,
+		"onTeamChange": true
+	},
+	"crosshair": {
+		"active": true,
+		"onChange": true
+	},
+	"chat": {
+		"chat": {
+			"active": false
+		},
+		"displayIndicator": false
+	},
+	"actionBar": {
+		"active": false
+	},
+	"bossBar": {
+		"active": false
+	},
+	"advanced": {
+		"hotbar": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"health": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"armor": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"hunger": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"air": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"experience": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"mountJumpBar": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"mountHealth": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"statusEffects": {
+			"direction": "Up",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"scoreboard": {
+			"direction": "Right",
+			"speedMultiplier": -1.0,
+			"distance": 100,
+			"maximumFade": -1.0
+		},
+		"crosshair": {
+			"speedMultiplier": 2.5,
+			"maximumFade": 0.1
+		},
+		"chat": {
+			"direction": "Left",
+			"speedMultiplier": -1.0,
+			"distance": 100,
+			"maximumFade": -1.0
+		},
+		"actionBar": {
+			"direction": "Down",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		},
+		"bossBar": {
+			"direction": "Up",
+			"speedMultiplier": -1.0,
+			"distance": -1,
+			"maximumFade": -1.0
+		}
+	}
+}
