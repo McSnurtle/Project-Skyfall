@@ -4,7 +4,7 @@ about: Suggest an idea or mechanic to add or remove from the server
 title: "[Feature] Cheese burgers"
 labels: feature
 assignees: McSnurtle
-projects: ["McSnurtle/1"]
+projects: McSnurtle/1
 
 ---
 
