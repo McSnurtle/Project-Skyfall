@@ -1,10 +1,9 @@
 ---
 name: Bug report
 about: Report a bug or problem with the server
-title: "[Bug]"
-labels: [bug, unknown]
+title: "[Bug] Flipping around"
+labels: bug, unknown
 assignees: McSnurtle
-projects: Mc_Snurtle/1
 
 ---
 

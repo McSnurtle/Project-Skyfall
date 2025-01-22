@@ -4,12 +4,11 @@ about: Suggest an idea or mechanic to add or remove from the server
 title: "[Feature] Cheese burgers"
 labels: feature
 assignees: McSnurtle
-projects: McSnurtle/1
 
 ---
 
 **Describe the feature**
-A clear and concise description of what you would like to see added.
+A clear and concise description of what you would like to see added / removed.
 > Cheese burgers would be edible items, craftable and able to be automated, found occasionally in village chests and sold by farmers.
 
 **What problems does this feature solve / cause?**
