@@ -2,7 +2,7 @@
 name: Crash report
 about: A detail of a crash and a walkthrough of all its errors
 title: "[Crash]"
-labels: bug, crashreport
+labels: bug, crashreport, unknown
 assignees: McSnurtle
 projects: ["McSnurtle/1"]
 
