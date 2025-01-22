@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a bug or problem with the server
+title: "[Bug] Flipping around"
+labels: ["bug", "unknown]
+projects: ["McSnurtle/1"]
+assignees:
+  - McSnurtle
+body:
+  - type: markdown
+  id: header
+  attributes:
+    value: |
+      **Describe the bug**
+      A clear and concise description of what the bug is.
+  - type: textarea
+  id: description
+  attributes:
+    label: label
+    description: description
+    placeholder: My friend flipped upside down and, when walking forward, started zooming into the sky at the speed of sound.
+  validations:
+    required: true
