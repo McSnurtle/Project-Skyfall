@@ -9,13 +9,12 @@ body:
   - type: markdown
     id: warning
     attributes:
-      label: |
+      value: |
         **Before filling out this issue form:** Ensure you have downloaded and are using the latest modpack version.
-      value: "header"
   - type: textarea
     id: description
     attributes:
-      label: ##Describe the bug
+      label: "## Describe the bug"
       description: A clear and concise description of what the bug is and affects.
       placeholder: My friend flipped upside down and, when walking forward, started zooming into the sky at the speed of sound.
       value: "Description"
@@ -32,8 +31,8 @@ body:
         3. Scroll down to ...
         4. See error
         value: "Steps to Reproduce"
-      validations:
-        required: false
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
