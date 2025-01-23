@@ -1,0 +1,80 @@
+name: Bug report
+description: Report a bug or problem with the server
+title: "[Bug] Flipping around"
+labels: ["bug"]
+projects: ["McSnurtle/1"]
+assignees: ["McSnurtle"]
+
+body:
+  - type: markdown
+    id: warning
+    attributes:
+      value: |
+        **Before filling out this issue form:** Ensure you have downloaded and are using the latest modpack version.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the bug"
+      description: A clear and concise description of what the bug is and affects.
+      placeholder: My friend flipped upside down and, when walking forward, started zooming into the sky at the speed of sound.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "Steps to reproduce the behaviour:"
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. Scroll down to ...
+        4. See error
+    validations:
+      required: false
+  - type: dropdown
+    id: singleplayer
+    attributes:
+      label: "Singleplayer?"
+      description: "Was this bug found in singleplayer?"
+      options:
+        - "Yes"
+        - "No"
+      default: "Yes"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Server Version"
+      description: "The current version of the server (the version number from the latest changelog, i.e. v1.8)"
+      placeholder: "vX.Y.Z"
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: "Expected Behaviour"
+      description: "A clear and concise desription of what you expected to happen."
+      placeholder: "My friend to not fly into the sky at the speed of sound"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots (Optional)"
+      description: "Attach screenshots to help explain the problem."
+      placeholder: "Drag & Drop here!"
+      value: "Drag & Drop here!"
+      description: "If applicable, add screenshots to help explain the problem."
+      value: "None"
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      description: "Added notes or context surrounding the issue."
+      value: "None"
+      placeholder: "Dude wtf he's still flying."
+    validations:
+      required: false

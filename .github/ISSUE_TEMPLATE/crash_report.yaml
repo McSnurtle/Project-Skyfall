@@ -1,0 +1,66 @@
+name: "Crash report"
+description: "A detail of a crash and a walkthrough of all its errors"
+title: "[Crash] while bombing"
+labels: ["bug", "crashreport", "unknown"]
+assignees: ["McSnurtle"]
+projects: ["McSnurtle/1"]
+
+body:
+  - type: markdown
+    id: warning
+    attributes:
+      value: |
+        **Before submitting this crash report:** ensure you are using the latest stable release of the server and modpack.
+        "**Before submitting this crash report:** ensure you are using the latest stable release of the server and modpack."
+  - type: textarea
+    id: when
+    attributes:
+      label: "When was the crash?"
+      description: |
+        A concise description of what you were doing before the game crashed.
+      placeholder: "The crash happened while attempting to bomb my friend's base."
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: "Crash Log"
+      description: |
+        Draw and drop the .txt crash report below. This report should be found in `%appdata%/.minecraft/crash-reports/.`, where the file name contains the date and time of the crash.
+      placeholder: "Attach the crash report, or a link to a gist here."
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: "Server Version"
+      description: |
+        The current version of the server (found in the latest changelog, i.e. v1.8)
+      placeholder: "vX.Y.Z"
+    validations:
+      required: true
+  - type: dropdown
+    id: singleplayer
+    attributes:
+      label: "Singleplayer?"
+      description: "Did the crash happen while in singleplayer?"
+      options:
+        - "Yes"
+        - "No"
+      default: "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots (Optional)"
+      description: "Attach screenshots to help explain your problem."
+      placeholder: "(image of chemicals in the water turning the frogs gay)"
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      description: "Add any notes or additional context surrounding the crash."
+      placeholder: None of the innocent civilians survived the explosion. Rip.
