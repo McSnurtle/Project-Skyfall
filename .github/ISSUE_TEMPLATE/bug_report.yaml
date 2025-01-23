@@ -39,6 +39,7 @@ body:
       options:
         - "Yes"
         - "No"
+      default: "Yes"
     validations:
       required: true
   - type: input
