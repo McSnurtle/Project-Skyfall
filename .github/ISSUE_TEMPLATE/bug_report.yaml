@@ -30,6 +30,7 @@ body:
         2. Click on ...
         3. Scroll down to ...
         4. See error
+        value: "Steps to Reproduce"
     validations:
       required: false
   - type: input
@@ -45,6 +46,7 @@ body:
     attributes:
       label: "Expected Behaviour"
       description: "A clear and concise desription of what you expected to happen."
+      value: "Expected Bahaviour"
       placeholder: "My friend to not fly into the sky at the speed of sound"
     validations:
       required: false
@@ -54,6 +56,8 @@ body:
       label: "Screenshots (Optional)"
       description: "Attach screenshots to help explain the problem."
       value: "Drag & Drop here!"
+      description: "If applicable, add screenshots to help explain the problem."
+      value: "None"
     validations:
       required: false
   - type: textarea
@@ -61,6 +65,7 @@ body:
     attributes:
       label: "Additional Context"
       description: "Added notes or context surrounding the issue."
+      value: "None"
       placeholder: "Dude wtf he's still flying."
     validations:
       required: false
