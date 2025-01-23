@@ -53,7 +53,7 @@ body:
     attributes:
       label: "Screenshots (Optional)"
       description: "Attach screenshots to help explain your problem."
-      placeholder: "(image chemicals in the water turning the frogs gay)"
+      placeholder: "(image of chemicals in the water turning the frogs gay)"
     validations:
       required: false
   - type: textarea
