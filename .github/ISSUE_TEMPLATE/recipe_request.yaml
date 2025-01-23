@@ -67,8 +67,8 @@ body:
 				 | Row 3            |          |          |          |
 				 |---------------------------------------------------|"
 			value: 
-				"| Crafting Table 	| Column 1 						 		 | Column 2 								| Column 3 						 		 |
-				 |---------------------------------------------------------------------------------------------------|
+				"| Crafting Table 	| Column 1 						 		 | Column 2 								| Column 3 						 		 			 |
+				 |---------------------------------------------------------------------------------------------------------|
 				 | Row 1						| <item:minecraft:diamond>*2 | <item:minecraft:diamond>*2 | <item:minecraft:diamond>*2 |
 				 | Row 2						| <item:minecraft:air> 		   | <item:minecraft:stick>*2 	| <item:minecraft:air> 		   |
 				 | Row 3						| <item:minecraft:air>		   | <item:minecraft:stick>*2 	| <item:minecraft:air>		   |"
