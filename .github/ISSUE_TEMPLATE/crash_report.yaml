@@ -10,6 +10,7 @@ body:
     id: warning
     attributes:
       value: |
+        **Before submitting this crash report:** ensure you are using the latest stable release of the server and modpack.
         "**Before submitting this crash report:** ensure you are using the latest stable release of the server and modpack."
   - type: textarea
     id: when
@@ -46,6 +47,7 @@ body:
       options:
         - "Yes"
         - "No"
+      default: "Yes"
     validations:
       required: true
   - type: textarea
