@@ -1,10 +1,10 @@
 name: Bug report
 description: Report a bug or problem with the server
 title: "[Bug] Flipping around"
-labels: ["bug", "unknown"]
+labels: ["bug"]
 projects: ["McSnurtle/1"]
-assignees:
-  - McSnurtle
+assignees: ["McSnurtle"]
+
 body:
   - type: markdown
     id: warning
@@ -39,7 +39,6 @@ body:
       label: "Server Version"
       description: "The current version of the server (the version number from the latest changelog, i.e. v1.8)"
       placeholder: "vX.Y.Z"
-      value: "Server Version"
     validations:
       required: true
   - type: input
@@ -51,10 +50,12 @@ body:
       placeholder: "My friend to not fly into the sky at the speed of sound"
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: screenshots
     attributes:
       label: "Screenshots (Optional)"
+      description: "Attach screenshots to help explain the problem."
+      value: "Drag & Drop here!"
       description: "If applicable, add screenshots to help explain the problem."
       value: "None"
     validations:
