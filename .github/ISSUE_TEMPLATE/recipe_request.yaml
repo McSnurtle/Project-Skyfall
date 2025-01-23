@@ -6,26 +6,26 @@ assignees: ["McSnurtle"]
 projects: ["McSnurtle/1"]
 
 body:
-	- type: textarea
-		id: reason
-		attributes:
-			label: "Why should this recipe be added / removed?"
-			description: "The current method of ataining the item, and why your recipe should be added instead or along side it."
-			placeholder: "Dyed / coloured terracotta is currently tedious to obtain, since the player needs to go to a mesa for the correct colour of terracotta. Adding the ability to dye the item would add significant QoL for minecolonies progression, since it relies so heavily on terracotta for the later upgrades."
-		validations:
-			required: true
+  - type: textarea
+	  id: reason
+	  attributes:
+      label: "Why should this recipe be added / removed?"
+      description: "The current method of ataining the item, and why your recipe should be added instead or along side it."
+      placeholder: "Dyed / coloured terracotta is currently tedious to obtain, since the player needs to go to a mesa for the correct colour of terracotta. Adding the ability to dye the item would add significant QoL for minecolonies progression, since it relies so heavily on terracotta for the later upgrades."
+    validations:
+      required: true
 
-	- type: dropdown
-		id: shapeless
-		attributes:
-			label: "Shapeless?"
-			description: "Does the recipe care about the position of the items? If no, the output will be produced no matter what order the items in the crafting table are in."
-		options:
-			- "Yes"
-			- "No"
-		default: 1
-		validations:
-			required: true
+  - type: dropdown
+    id: shapeless
+    attributes:
+      label: "Shapeless?"
+      description: "Does the recipe care about the position of the items? If no, the output will be produced no matter what order the items in the crafting table are in."
+    options:
+      - "Yes"
+      - "No"
+    default: 1
+    validations:
+      required: true
 
 	- type: dropdown
 		id: station
