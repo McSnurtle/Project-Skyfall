@@ -6,13 +6,13 @@ projects: ["McSnurtle/1"]
 assignees:
   - McSnurtle
 body:
-  type: markdown
+  - type: markdown
   id: header
   attributes:
     value: |
       **Describe the bug**
       A clear and concise description of what the bug is.
-  type: textarea
+  - type: textarea
   id: description
   attributes:
     label: label
