@@ -32,12 +32,12 @@ body:
     validations:
       required: true
   - type: input
-    if: systems
+    id: systems
     attributes:
       label: "How does this tie into existing systems?"
       description: |
         What gameplay / systems would obviously require changing to implement / remove this feature?
-      plceholder: "Villages, loot tables, food system / farmers delight"
+      placeholder: "Villages, loot tables, food system / farmers delight"
     validations:
       required: true
   - type: textarea
