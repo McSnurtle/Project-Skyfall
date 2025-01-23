@@ -32,6 +32,17 @@ body:
         value: "Steps to Reproduce"
     validations:
       required: false
+  - type: dropdown
+    id: singleplayer
+    attributes:
+      label: "Singleplayer?"
+      description: "Was this bug found in singleplayer?"
+      options:
+        - "Yes"
+        - "No"
+      value: "Yes"
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
