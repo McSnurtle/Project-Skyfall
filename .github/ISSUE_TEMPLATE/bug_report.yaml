@@ -17,6 +17,7 @@ body:
       label: ##Describe the bug
       description: A clear and concise description of what the bug is and affects.
       placeholder: My friend flipped upside down and, when walking forward, started zooming into the sky at the speed of sound.
+    value: "Description"
     validations:
       required: true
   - type: textarea
@@ -29,6 +30,7 @@ body:
         2. Click on ...
         3. Scroll down to ...
         4. See error
+      value: "Steps to Reproduce"
       validations:
         required: false
   - type: input
@@ -37,6 +39,7 @@ body:
       label: "**Server Version**"
       description: "The current version of the server (the version number from the latest changelog, i.e. v1.8)"
       placeholder: "vX.Y.Z"
+      value: "Server Version"
     validations:
       required: true
   - type: input
@@ -44,6 +47,7 @@ body:
     attributes:
       label: "**Expected Behaviour"
       description: "A clear and concise desription of what you expected to happen."
+      vlue: "Expected Bahaviour"
     validations:
       required: false
   - type: input
@@ -51,6 +55,7 @@ body:
     attributes:
       label: "**Screenshots (Optional)**"
       description: "If applicable, add screenshots to help explain the problem."
+      value: "None"
     validations:
       required: false
   - type: textarea
@@ -58,5 +63,6 @@ body:
     attributes:
       label: "**Additional Context**"
       description: "Added notes or context surrounding the issue."
+      value: "None"
     validations:
       required: false
