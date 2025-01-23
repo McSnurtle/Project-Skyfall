@@ -55,7 +55,6 @@ body:
     attributes:
       label: "Expected Behaviour"
       description: "A clear and concise desription of what you expected to happen."
-      value: "Expected Bahaviour"
       placeholder: "My friend to not fly into the sky at the speed of sound"
     validations:
       required: false
@@ -64,9 +63,7 @@ body:
     attributes:
       label: "Screenshots (Optional)"
       description: "Attach screenshots to help explain the problem."
-      value: "Drag & Drop here!"
-      description: "If applicable, add screenshots to help explain the problem."
-      value: "None"
+      placeholder: "Drag & Drop here!"
     validations:
       required: false
   - type: textarea
