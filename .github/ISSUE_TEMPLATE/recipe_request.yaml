@@ -19,9 +19,9 @@ body:
     attributes:
       label: "Shapeless?"
       description: "Does the recipe care about the position of the items? If no, the output will be produced no matter what order the items in the crafting table are in."
-    options:
-      - "Yes"
-      - "No"
+      options:
+        - "Yes"
+        - "No"
     default: 1
     validations:
       required: true	
