@@ -9,34 +9,34 @@ body:
   - type: markdown
     id: warning
     attributes:
-      label: |
-        **Before filling out this issue form:** Ensure you have downloaded and are using the latest modpack version. 
+      value: |
+        **Before filling out this issue form:** Ensure you have downloaded and are using the latest modpack version.
   - type: textarea
     id: description
     attributes:
-      label: ##Describe the bug
+      label: "Describe the bug"
       description: A clear and concise description of what the bug is and affects.
       placeholder: My friend flipped upside down and, when walking forward, started zooming into the sky at the speed of sound.
-    value: "Description"
+      value: "Description"
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
-      label: "**Steps to reproduce**"
+      label: "Steps to reproduce"
       description: "Steps to reproduce the behaviour:"
       placeholder: |
         1. Go to ...
         2. Click on ...
         3. Scroll down to ...
         4. See error
-      value: "Steps to Reproduce"
-      validations:
-        required: false
+        value: "Steps to Reproduce"
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
-      label: "**Server Version**"
+      label: "Server Version"
       description: "The current version of the server (the version number from the latest changelog, i.e. v1.8)"
       placeholder: "vX.Y.Z"
       value: "Server Version"
@@ -45,15 +45,16 @@ body:
   - type: input
     id: expected
     attributes:
-      label: "**Expected Behaviour"
+      label: "Expected Behaviour"
       description: "A clear and concise desription of what you expected to happen."
-      vlue: "Expected Bahaviour"
+      value: "Expected Bahaviour"
+      placeholder: "My friend to not fly into the sky at the speed of sound"
     validations:
       required: false
   - type: input
     id: screenshots
     attributes:
-      label: "**Screenshots (Optional)**"
+      label: "Screenshots (Optional)"
       description: "If applicable, add screenshots to help explain the problem."
       value: "None"
     validations:
@@ -61,8 +62,9 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: "**Additional Context**"
+      label: "Additional Context"
       description: "Added notes or context surrounding the issue."
       value: "None"
+      placeholder: "Dude wtf he's still flying."
     validations:
       required: false
