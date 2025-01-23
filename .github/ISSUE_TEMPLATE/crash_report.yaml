@@ -56,7 +56,7 @@ body:
       placeholder: "(image chemicals in the water turning the frogs gay)"
     validations:
       required: false
-  - textarea
+  - type: textarea
     id: additional
     attributes:
       label: "Additional Context"
