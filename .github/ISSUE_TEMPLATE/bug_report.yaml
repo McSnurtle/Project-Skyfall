@@ -29,7 +29,6 @@ body:
         2. Click on ...
         3. Scroll down to ...
         4. See error
-        value: "Steps to Reproduce"
     validations:
       required: false
   - type: dropdown
