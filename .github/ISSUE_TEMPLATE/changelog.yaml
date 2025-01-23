@@ -1,0 +1,46 @@
+name: "Changelog"
+about: "A log of all the changes made in an update"
+title: "Skyfall Update vX.Y.Z"
+labels: ["documentation"]
+assignees: ["McSnurtle"]
+projects: ["McSnurtle/1"]
+
+body:
+  - type: textarea
+    id: name
+    attributes:
+      value: |
+        *"\[Name\]" Update*<br>
+        **Download here:** [vX.Y.Z](<https://github.com/McSnurtle/Project-Skyfall/releases/tag/vX.Y.Z>)
+  - type: textarea
+    id: preview
+    attributes:
+      label: "Update Preview :eyes:"
+      description: "A sneak preview of what's new in this update."
+      value: " - "
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Changes"
+      description: "Changes made to the modpack and server since the previous update."
+      value: |
+        *A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/vA.B.C...vX.Y.Z>)
+         - 
+    validations:
+      required: true
+  - type: textarea
+    id: fixes
+    attributes:
+      label: "Fixes"
+      description: "Bugs that were fixed in this update."
+      value: " - "
+    validations:
+      required: false
+  - type: textarea
+    id: issues
+    attributes:
+      label: "Known Issues"
+      description: "Known problems with this update"
+      value: " - "
+    validations:
+      required: false
