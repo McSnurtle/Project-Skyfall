@@ -48,7 +48,6 @@ body:
         - "Yes"
         - "No"
       default: 1
-      default: "Yes"
     validations:
       required: true
   - type: textarea
