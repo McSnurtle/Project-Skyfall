@@ -9,8 +9,9 @@ body:
   - type: textarea
     id: name
     attributes:
+      label: ""
       value: |
-        *"\[Name\]" Update*<br>
+        # *"\[Name\]" Update*<br>
         **Download here:** [vX.Y.Z](<https://github.com/McSnurtle/Project-Skyfall/releases/tag/vX.Y.Z>)
   - type: textarea
     id: preview
