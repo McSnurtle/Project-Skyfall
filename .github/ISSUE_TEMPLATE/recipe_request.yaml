@@ -62,8 +62,8 @@ body:
 	| Row 2					 |					|					 |					|
 	| Row 3					 |					|					 |					|
 	|-------------------------------------------------|"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: output
     attributes:
