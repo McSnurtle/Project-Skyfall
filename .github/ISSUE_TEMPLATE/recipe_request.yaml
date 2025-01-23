@@ -14,7 +14,6 @@ body:
       placeholder: "Dyed / coloured terracotta is currently tedious to obtain, since the player needs to go to a mesa for the correct colour of terracotta. Adding the ability to dye the item would add significant QoL for minecolonies progression, since it relies so heavily on terracotta for the later upgrades."
       validations:
       	required: true
-	
   - type: dropdown
     id: shapeless
     attributes:
@@ -25,8 +24,7 @@ body:
       - "No"
     default: 1
     validations:
-      required: true
-	
+      required: true	
   - type: dropdown
     id: station
     attributes:
@@ -53,7 +51,6 @@ body:
     default: 0
     validations:
       required: true
-
   - type: textarea
     id: recipe
     attributes:
@@ -67,7 +64,6 @@ body:
 	|-------------------------------------------------|"
       validations:
         required: true
-	
   - type: input
     id: output
     attributes:
