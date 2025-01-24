@@ -1,0 +1,74 @@
+name: Recipe Request
+description: "Suggest a recipe or means of obtaining an item"
+title: "[Recipe] Terracotta dyeing recipe"
+labels: ["recipe"]
+assignees: ["McSnurtle"]
+projects: ["McSnurlte/1"]
+
+body:
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Why should this recipe be added / removed?"
+      description: "The current method of ataining the item, and why your recipe should be added instead or along side it."
+      placeholder: "Dyed / coloured terracotta is currently tedious to obtain, since the player needs to go to a mesa for the correct colour of terracotta. Adding the ability to dye the item would add significant QoL for minecolonies progression, since it relies so heavily on terracotta for the later upgrades."
+    validations:
+      required: true
+  - type: dropdown
+    id: shapeless
+    attributes:
+      label: "Shapeless?"
+      description: "Does the recipe care about the position of the items? If no, the output will be produced no matter what order the items in the crafting table are in."
+      options:
+        - "Yes"
+        - "No"
+      default: 1
+    validations:
+      required: true	
+  - type: dropdown
+    id: station
+    attributes:
+      label: "Recipe type"
+      description: "What block / where does this recipe apply?"
+      options:
+        - "Crafting Table"
+        - "Furnace / Smelting"
+        - "Stone Cutter"
+        - "Blast Furnace"
+        - "Smoker"
+        - "Anvil"
+        - "Campfire"
+        - "Crushing (Millstone + Wheel)"
+        - "Crushing (Wheel only)"
+        - "Mechanical Crafting"
+        - "Mixing"
+        - "Heated Mixing"
+        - "Pressing"
+        - "Heated Pressing"
+        - "Blasting"
+        - "Washing"
+        - "Soul Blasting"
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: recipe
+    attributes:
+      label: "Recipe"
+      description: "What ingredients, and, if applicable, in what order does the recipe require? If a recipe removal, enter the recipe below. This section uses markdown's table formatting. Spacing is unimportant, the example uses neat spacing only for your eyes' sake."
+      placeholder: "| Crafting Table | Column 1 | Column 2 | Column 3 |
+        |-------------------------------------------------|
+	| Row 1					 |					|					 |					|
+	| Row 2					 |					|					 |					|
+	| Row 3					 |					|					 |					|
+	|-------------------------------------------------|"
+    validations:
+      required: true
+  - type: input
+    id: output
+    attributes:
+      label: "Output"
+      description: "What item(s) the recipe outputs. It's preferred to use crafttweakers item format (i.e. would output <item:create:brass_ingot>*9)"
+      placeholder: "<item:minecraft:diamond_pickaxe>*2"
+    validations:
+      required: true

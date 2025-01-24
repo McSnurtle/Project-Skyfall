@@ -19,6 +19,8 @@ body:
       label: "Update Preview :eyes:"
       description: "A sneak preview of what's new in this update."
       value: " - "
+    validations:
+      required: true
   - type: textarea
     id: changes
     attributes:
@@ -26,7 +28,12 @@ body:
       description: "Changes made to the modpack and server since the previous update."
       value: |
         *A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/vA.B.C...vX.Y.Z>)
-         - 
+        
+        **Gameplay Changes**
+        > -
+
+        **GitHub Changes**
+        > -
     validations:
       required: true
   - type: textarea
