@@ -14,7 +14,7 @@
             "updateType": "minor"
         },
         {
-            "id": "v1.8",
+            "id": "v1.8.0",
             "releasedAt": 1737818460000,
             "promotions": {
                 "downloads": {
