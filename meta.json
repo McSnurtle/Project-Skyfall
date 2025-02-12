@@ -4,7 +4,7 @@
     "versions": [
         {
             "id": "v1.8.1",
-            "releasedAt": 1738594800,
+            "releasedAt": 1738594800000,
             "promotions": {
                 "downloads": {
                     "curseforge": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1336139341344542780",
@@ -15,7 +15,7 @@
         },
         {
             "id": "v1.8",
-            "releasedAt": 1737818460,
+            "releasedAt": 1737818460000,
             "promotions": {
                 "downloads": {
                     "curseforge": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1332883208039039099",
