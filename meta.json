@@ -10,7 +10,8 @@
                     "Discord": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1336139341344542780",
                     "GitHub": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8.1"
                 }
-            }
+            },
+            "updateType": "minor"
         },
         {
             "id": "v1.8",
@@ -20,7 +21,8 @@
                     "Discord": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1332883208039039099",
                     "GitHub": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8"
                 }
-            }
+            },
+            "updateType": "major"
         }
     ]
 }
