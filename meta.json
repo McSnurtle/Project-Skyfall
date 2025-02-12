@@ -7,8 +7,8 @@
             "releasedAt": 1738594800,
             "promotions": {
                 "downloads": {
-                    "Discord": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1336139341344542780",
-                    "GitHub": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8.1"
+                    "curseforge": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1336139341344542780",
+                    "generic": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8.1"
                 }
             },
             "updateType": "minor"
@@ -18,8 +18,8 @@
             "releasedAt": 1737818460,
             "promotions": {
                 "downloads": {
-                    "Discord": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1332883208039039099",
-                    "GitHub": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8"
+                    "curseforge": "https://ptb.discord.com/channels/1304151992582672434/1308220259131723796/1332883208039039099",
+                    "generic": "https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8"
                 }
             },
             "updateType": "major"
