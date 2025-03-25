@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "v1.8.0",
+  "modpackName": "Project Skyfall",
+  "modpackAuthor": "Mc_Snurtle",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://raw.githubusercontent.com/McSnurtle/Project-Skyfall/refs/heads/main/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}
