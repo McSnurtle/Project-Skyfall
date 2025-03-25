@@ -1,0 +1,49 @@
+### Changelog
+
+# *"The Horde" Update*<br>
+**Download here:** [v1.8](<https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8>)
+
+
+### Update Preview :eyes:
+
+Various villager recruits meandering about
+![a group of various villager recruits](https://github.com/user-attachments/assets/a7113a99-ee4d-4af2-96b2-725f1d85686f)
+A row of villager shieldmen
+![villager recruit shieldmen](https://github.com/user-attachments/assets/34e91816-6c08-4188-994a-e8078ecc87eb)
+Stunning a spider with a perfect parry
+> *(Preview unavailable)*
+New MOTD
+![new server motd featuring the new creature features](https://github.com/user-attachments/assets/4da305a1-0581-4df4-928f-c81cde7402ff)
+
+### Changes
+
+*A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/v1.7.1...v1.8>)
+**Gameplay Changes**
+ - Removed crafting recipe for `alekiships:cannon` (credit: @Nathaniel2011 )
+ - Updated server motd (see **Update Preview :eyes:**)
+- ~~Added medieval siege weapons for early-game warfare (`machines`) ([Repo](<>), [Modrinth](<>)) (#307 )~~
+> - ~~Added ballista, a manned turret that packs a punch!~~
+> - ~~Added battering ram, perfect for slowly smashing through castle walls~~
+> - ~~Added siege cannon, a more heavy duty version of the Nifty Ships cannon, yet easier than the late game, *super heavy duty cannons*~~
+> - ~~Added catapult, a long-range, super-slow, beast of a wall destroyer~~
+> - ~~Added siege ladder, a difficult and risky tool for scaling large walls... Perhaps it would be best to have them on a cliff or on the water?~~
+*(The siege machines are unfortunately not updated to a compatible version, and might be added in the future if the mod isn't abandoned. Manually decompiling and updating would be **a lot** of work.)*
+ - Added Minecraft: Legends-style command-able armies (`recruits`) ([Repo](<>), [Modrinth](<>)) (#309 )
+> - Villagers can now be recruited into a player's army - for the right price
+> - Villager recruits have different stats, very similarly to colonists, and also very similarly, they get upgraded as they get more kills
+> - Villager recruits come in classes: bowman, recruit shieldman, recruit, nomad, horseman, and crossbowman
+> - Recruited villagers can be assigned groups, like any good RTS, and instructed based on class, or group
+> - Highly skilled recruits can be found in rare caravans around the world - with high skill comes a high price. New recruits can be acquired and trained through the recruit job blocks; soon to be craftable, and currently purchasable from apprentice level weapon-smiths and armorers
+> - Recruitment tables are unable to be claimed, meaning placing one down guarantees infinite recruits of that type
+> - There is an absurd amount of depth to this mod!! A crazy amount!! Players can have a group assigned as personal protection, with a band of archers set to stand their ground and shoot a tower of enemy reinforcements - behind the row of shieldman, who are advancing *with* the swordsman
+ - Added immunity frames on roll. Players will no longer take damage just before, during, and a while after rolling. Multi-roll for the win!
+ - Reduced campfire's healing radius from 16 to 8 blocks (#308 )
+ - Substantially optimized performance around create mod factories, and general particle optimizations (`mods/particle_core-0.2.5+1.20.1+forge.jar`) ([Repo](<>), [Modrinth](<https://modrinth.com/mod/particle-core/version/0.2.5+1.20.1+forge>))
+ - Added new dependency mod (`mods/fzzy_config-0.6.3+1.20.1+forge.jar`) ([Repo](<>), [Modrinth](<https://modrinth.com/mod/fzzy-config/version/0.6.2+1.20.1+forge>))
+
+**GitHub Changes**
+> - Slightly changed some issue templates (if I remember correctly.... which I might not)
+
+### Fixes
+
+ - (Probably) fixed a leftover bug where sea-adjacent water levels were not consistent (#179 )
