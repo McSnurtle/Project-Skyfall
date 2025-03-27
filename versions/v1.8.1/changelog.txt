@@ -1,0 +1,50 @@
+### Changelog
+
+# *Small patch Update*<br>
+**Download here:** [v1.8.1](<https://github.com/McSnurtle/Project-Skyfall/releases/tag/v1.8.1>)
+
+
+### Update Preview :eyes:
+
+Connected textures:
+
+![Image](https://github.com/user-attachments/assets/275c5858-c18d-4d60-b27a-dc868cf14cfa)
+
+### Changes
+
+*A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/v1.7.2...v1.8.1>)
+
+**Gameplay Changes**
+ - Added new connected textures resourcepack (`Connected Texture+ V4.zip`) ([Repo](<>), [Curseforge](<https://www.curseforge.com/minecraft/texture-packs/connected-texture/download/6079335>)) (#350 by @brousmelly )
+ - Added recipes for the new recruit blocks (all recipes use any type of (vanilla) planks or sword, they must be full durability. Only the vanilla bow is allowed. Any shields registered as <tag:items:forge:shields> will work for the shieldman table, but only vanilla shields are tested):
+ > - Recruit table
+![Image](https://github.com/user-attachments/assets/bfeba006-d062-4df2-bb1c-eae0ddb3addc)
+> - Bowman table
+![Image](https://github.com/user-attachments/assets/e01e9f44-3b4d-4152-af10-329a130e2a4b)
+> - Recruit Shieldman table
+![Image](https://github.com/user-attachments/assets/c97dd903-2257-4422-834d-b0450b259df9)
+> - Crossbowman table
+![Image](https://github.com/user-attachments/assets/ff2cc6eb-bb44-43f0-af85-1681c02d89cb)
+> - Horseman table
+![Image](https://github.com/user-attachments/assets/6d48ea6e-d8b9-4cc4-9198-7862dc373e46)
+> - Nomad table
+![Image](https://github.com/user-attachments/assets/bca94976-f5b5-4d15-98f2-8784315ebb8a)
+ - Removed the anti-xray mod, increasing client-side performance - feel free to try x-raying, but good luck with it! (#136 by @brousmelly )
+ - Removed the "underworld" mechanic where players would be transferred to and from the nether by touching bedrock (#336 by @McSnurtle )
+ - Saplings will now despawn when left on the ground instead of trying to plant themselves (#335 by everybody)
+ - Added a client-side mod to optimize systems with low memory capacity (`mods/alltheleaks-0.1.0-beta+1.20.1-forge.jar`) ([Repo](<>), [Curseforge](<https://www.curseforge.com/minecraft/mc-mods/alltheleaks/files/5936734>))
+ - Slightly reduced the minimum colony creation distance
+ - Reduced the server-side simulation distance to 5 to increase tps. This means that only chunks within a 5 chunk radius around you will be loaded at any given time! (#345 by @IAmNotYou4Real )
+ - Reduced the server-side view distance to 12 in an effort to increase tps. This means that without the use of the included client-side view distance enhancement mods like bobby, acedium, or distant horizons, you will only be able to see a maximum of 12 chunks around you in all directions. (#345 by @IAmNotYou4Real )
+ - Removed the recipe for gravitrons - note that pre-existing gravitrons will remain, feel free to scalp them on ebay! (#351 by @McSnurtle )
+
+**GitHub Changes**
+ - Changed changelog template to include multiple changes sections, such as **Gameplay Changes** and **GitHub Changes** (#)
+
+### Fixes
+
+ - Fixed several server-side memory leaks (#337 )
+
+### Known Issues
+
+ - We couldn't find the new sound.
