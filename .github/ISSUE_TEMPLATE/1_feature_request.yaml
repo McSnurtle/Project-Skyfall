@@ -46,7 +46,7 @@ body:
         - UI
         - Mod compatibility
         - Other
-        - None
+        - N/A
     validations:
       required: true
   - type: textarea
