@@ -31,13 +31,22 @@ body:
         Solves the issue of not finding enough food from Farmer's Delight in village chests.
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: systems
     attributes:
-      label: "How does this tie into existing systems?"
+      label: "Which pre-existing system does this feature tie into?"
       description: |
-        What gameplay / systems would obviously require changing to implement / remove this feature?
-      placeholder: "Villages, loot tables, food system / farmers delight"
+        What systems would obviously conflict with or impede the implementation / removal of this feature?
+      multiple: true
+      options:
+        - Terrain
+        - Structure generation
+        - Gameplay balancing
+        - Recipes
+        - UI
+        - Mod compatibility
+        - Other
+        - None
     validations:
       required: true
   - type: textarea
@@ -45,7 +54,7 @@ body:
     attributes:
       label: "Additional context"
       description: |
-        Attach screenshots or additional details to demonstrate your feature.
-      placeholder: "Beesechurger"
+        # Attach screenshots or additional details to demonstrate your feature. If possible, please attach the relevant resource such as the datapack or mod page here.
+      placeholder: "[Beesechurger](<https://www.curseforge.com/minecraft/mc-mods/embeddium>)"
     validations:
       required: false
