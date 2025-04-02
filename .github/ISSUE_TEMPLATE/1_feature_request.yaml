@@ -54,7 +54,7 @@ body:
     attributes:
       label: "Additional context"
       description: |
-        # Attach screenshots or additional details to demonstrate your feature. If possible, please attach the relevant resource such as the datapack or mod page here.
+        Attach screenshots or additional details to demonstrate your feature. If possible, please attach the relevant resource such as the datapack or mod page here.
       placeholder: "[Beesechurger](<https://www.curseforge.com/minecraft/mc-mods/embeddium>)"
     validations:
       required: false
