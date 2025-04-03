@@ -52,9 +52,9 @@ body:
       description: |
         Do main gameplay elements rely on or are drastically affected by this feature?
       options:
-        - Yes 
-        - No 
-      default: No 
+        - "Yes"
+        - "No" 
+      default: 1
     validations:
       required: true
   - type: textarea
