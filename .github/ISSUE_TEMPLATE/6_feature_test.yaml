@@ -1,0 +1,68 @@
+name: "Feature test"
+description: "Track the testing of a feature"
+title: "[Test] Cheese Burgers"
+labels: ["feature"]
+assignees: ["McSnurtle"]
+projects: ["McSnurtle/2"]
+
+body:
+  - type: markdown
+    id: warning
+    attributes:
+      value: |
+        **Before submitting this test tracker:** ensure that this idea has not been submitted already.
+  - type: input
+    id: feature
+    attributes:
+      label: "What feature needs testing?"
+      description: |
+        A clear and concise description of what feature needs testing, and what about the feature needs testing?.
+      placeholder: |
+        Cheese Burgers, their ability to spawn in villages, and their stats when eaten.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Where did the feature come from?"
+      description: |
+        List the relevant mod / file changes to the client and / or server that came with this feature. Optionally include the commit where the feature was added.
+      placeholder: |
+        `cheeseburgers-0.4.5-forge.jar` from [Curseforge](<>) in `commit-8d9fh29389b`
+    validations:
+      required: true
+  - type: dropdown
+    id: update
+    attributes:
+      label: "When was the feature added?"
+      description: |
+        In which update was this feature added?
+      options:
+        - v2.0
+        - v1.8.1
+        - v1.8
+        - v1.7.2
+        - Older
+    validations:
+      required: true
+  - type: dropdown
+    id: important
+    attributes:
+      label: "Is this feature integral to gameplay?"
+      description: |
+        Do main gameplay elements rely on or are drastically affected by this feature?
+      options:
+        - "Yes"
+        - "No" 
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: "How does gameplay revolve around this feature?"
+      description: |
+        If you answered Yes to the previous question, how does and what integral gameplay rely on this feature? 
+      placeholder: "It offers later-game, automatable, good food options to players who need X and Y in their diets."
+    validations:
+      required: false
