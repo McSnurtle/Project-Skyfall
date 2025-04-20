@@ -1,4 +1,5 @@
 LICENSE
 README.md
 server/
-*.zip
+skyfall*.zip
+skyfall*.tar.gz
