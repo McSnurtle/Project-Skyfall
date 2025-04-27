@@ -50,6 +50,19 @@ body:
       default: 1
     validations:
       required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform"
+      description: "What operating system were you on when you found the bug?"
+      options:
+        - "Linux"
+        - "Windows 10"
+        - "Windows 11"
+        - "MacOS"
+      default: 3
+    validations:
+      required: true
   - type: textarea
     id: screenshot
     attributes:
