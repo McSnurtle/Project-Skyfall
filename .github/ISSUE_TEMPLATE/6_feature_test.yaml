@@ -33,7 +33,7 @@ body:
       required: true
   - type: dropdown
     id: platform
-    atributes:
+    attributes:
       label: "What platform does this need testing on?"
       description: |
         Select the operating system(s) that this feature needs testing on to be 100% confirmed working.
