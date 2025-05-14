@@ -1,7 +1,7 @@
 name: "Feature request"
 description: "Suggest an idea or mechanic to add or remove from the server"
 title: "[Feature] Cheese burgers"
-labels: ["feature"]
+labels: ["type: feature"]
 assignees: ["McSnurtle"]
 projects: ["McSnurtle/1"]
 
