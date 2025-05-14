@@ -1,7 +1,7 @@
 name: "Feature test"
 description: "Track the testing of a feature"
 title: "[Test] Cheese Burgers"
-labels: ["feature"]
+labels: ["type: test"]
 assignees: ["McSnurtle"]
 projects: ["McSnurtle/2"]
 

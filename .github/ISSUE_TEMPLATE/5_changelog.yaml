@@ -1,7 +1,7 @@
 name: "Changelog"
 description: "A log of all the changes made in an update"
 title: "Skyfall Update vX.Y.Z"
-labels: ["documentation"]
+labels: ["type: documentation"]
 assignees: ["McSnurtle"]
 projects: ["McSnurtle/1"]
 
