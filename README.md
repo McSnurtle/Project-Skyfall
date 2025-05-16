@@ -5,12 +5,15 @@ The Minecraft server nobody asked for, but everybody needs. Factorio, Frostpunk,
 
 Originally intended to be a brutal, 1:1 earth-scale factory planning, city planning, logistics nightmare (structural integrity was even considered!), turned into a beautiful clash of exploration, territory expansion, diplomatic relations, and of course city management.
 
+
 ## Quickstart / Installation Guide :rocket:
+
 Joining Skyfall is simpler now than its ever been. All you have to do to get started is:
+
 - Click on the current release under the Releases section (on the right of this screen)
 - Download whichever version of Skyfall is for your system:
-> - If you aren't on Windows, go with the option that says `linux`.
-> - If you have NVidia hardware, go with the option that says `nvidia`, if you aren't sure, go with `nonvidia`.
+- - If you aren't on Windows, go with the option that says `linux`.
+- - If you have NVidia hardware, go with the option that says `nvidia`, if you aren't sure, go with `nonvidia`.
 - Extract the contents of the folder into your `.minecraft` folder.
 - - On windows, this is located in `%APPDATA%/.minecraft/`. On linux, this will either be in `~/.minecraft/` or `~/.var/app/com.mojang.Minecraft/.minecraft/`
 - - The `config`, `resourcepacks`, and `mods` folders should be located a*directly within* your `.minecraft` directory
@@ -20,7 +23,9 @@ Any time there is a critical update, there will be a changelog and download mess
 
 *In future, I hope to have an easy to use "launcher" for Skyfall - a single script that automatically downloads the latest update every time the game loads, with the optimal settings, forge, the whole nine yards - but alas, its not the future, but really a long long time ago.*
 
+
 ## Helpful Resources :book:
+
 **[Changelogs](<https://github.com/McSnurtle/Project-Skyfall/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22type%3A%20documentation%22>)** - A comprehensive list of all changes made to Skyfall. Ever.
 
 **[Issue Tracker](<https://github.com/McSnurtle/Project-Skyfall/issues>)** - One central place to find and upload bug reports, feature requests, and crash reports - aka the only reason Skyfall is still going. I implore you, PLEASE make an issue, voice your feedback!!
