@@ -11,13 +11,16 @@ Joining Skyfall is simpler now than its ever been. All you have to do to get sta
 > - If you have NVidia hardware, go with the option that says `nvidia`, if you aren't sure, go with `nonvidia`.
 - Extract the contents of the folder into your `.minecraft` folder.
 - - On windows, this is located in `%APPDATA%/.minecraft/`. On linux, this will either be in `~/.minecraft/` or `~/.var/app/com.mojang.Minecraft/.minecraft/`
-- - The `config`, `resourcepacks`, and `mods` folders should be located *directly within* your `.minecraft` directory
+- - The `config`, `resourcepacks`, and `mods` folders should be located a*directly within* your `.minecraft` directory
 - Run the game! It's as simple as that!
 
 Any time there is a critical update, there will be a changelog and download message in the Discord server, and you will be notified in-game via the title screen, where you can easily preview the changelog directly from within Minecraft!
+
 *In future, I hope to have an easy to use "launcher" for Skyfall - a single script that automatically downloads the latest update every time the game loads, with the optimal settings, forge, the whole nine yards - but alas, its not the future, but really a long long time ago.*
 
 ## Helpful Resources :book:
 **[Changelogs](<https://github.com/McSnurtle/Project-Skyfall/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22type%3A%20documentation%22>)** - A comprehensive list of all changes made to Skyfall. Ever.
+
 **[Issue Tracker](<https://github.com/McSnurtle/Project-Skyfall/issues>)** - One central place to find and upload bug reports, feature requests, and crash reports - aka the only reason Skyfall is still going. I implore you, PLEASE make an issue, voice your feedback!!
+
 **[Update Progress](<https://github.com/uesrs/McSnurtle/projects/1/>)** -  See what issues are being worked on, when, and how.
