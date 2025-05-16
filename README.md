@@ -3,7 +3,7 @@ The Minecraft server nobody asked for, but everybody needs. Factorio, Frostpunk,
 [PREVIEW IMAGE]
 Originally intended to be a brutal, 1:1 earth-scale factory planning, city planning, logistics nightmare (structural integrity was even considered!), turned into a beautiful clash of exploration, territory expansion, diplomatic relations, and of course city management.
 
-## Quickstart / Installation :rocket:
+## Quickstart / Installation Guide :rocket:
 Joining Skyfall is simpler now than its ever been. All you have to do to get started is:
 - Click on the current release under the Releases section (on the right of this screen)
 - Download whichever version of Skyfall is for your system:
