@@ -1,7 +1,7 @@
 name: Bug report
 description: Report a bug or problem with the server
 title: "[Bug] Flipping around"
-labels: ["bug"]
+labels: ["type: bug"]
 projects: ["McSnurtle/1"]
 assignees: ["McSnurtle"]
 
