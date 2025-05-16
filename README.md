@@ -1,6 +1,8 @@
 # Project-Skyfall
 The Minecraft server nobody asked for, but everybody needs. Factorio, Frostpunk, Stardew Valley, and all the good of Minecraft, all in one.
-[PREVIEW IMAGE]
+
+![image](https://github.com/user-attachments/assets/8b7c5a4e-a151-48b4-9f30-e002849d73bc)
+
 Originally intended to be a brutal, 1:1 earth-scale factory planning, city planning, logistics nightmare (structural integrity was even considered!), turned into a beautiful clash of exploration, territory expansion, diplomatic relations, and of course city management.
 
 ## Quickstart / Installation Guide :rocket:
