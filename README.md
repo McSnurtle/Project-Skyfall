@@ -12,14 +12,27 @@ To join Skyfall, you'll first need a few things: _[Minecraft](<https://www.minec
 
 **1. Download the current release**
 - Click on the current release under the Releases section (on the right of this screen)
+
+<img width="215" alt="image" src="https://github.com/user-attachments/assets/2aa99f1c-31dc-4597-b3e6-ac45d3533769" />
+
 - Download the version that is right for your system:
 - - If you aren't on Windows, go with the option that says `linux`.
 - - If you have NVidia hardware, go with the option that says `nvidia`, if you aren't sure, go with `nonvidia`.
 
+<img width="704" alt="image" src="https://github.com/user-attachments/assets/0f8a33fb-7f85-4e65-b6d6-cea569893686" />
+
 **2. Install the modpack**
 - Extract the contents of the folder into your `.minecraft` folder.
+
+<img width="281" alt="image" src="https://github.com/user-attachments/assets/7ef2eb11-d5cf-4f8a-ae11-114235cd94dd" />
+
 - - On windows, this is located in `%APPDATA%/.minecraft/`. On linux, this will either be in `~/.minecraft/` or `~/.var/app/com.mojang.Minecraft/.minecraft/`
+
+![image](https://github.com/user-attachments/assets/dfa32292-e5cc-4520-b956-ad71cfd8d1aa)
+
 - - The `config`, `resourcepacks`, and `mods` folders should be located a*directly within* your `.minecraft` directory
+
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/594458d3-89fd-4d91-ae0b-333796a03bc6" />
 
 **3. Launch Skyfall**
 - Run the game! It's as simple as that!
