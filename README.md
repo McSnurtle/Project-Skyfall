@@ -49,3 +49,18 @@ One central place to find and upload bug reports, feature requests, and crash re
 
 ### [Update Progress](<https://github.com/uesrs/McSnurtle/projects/1/>)
 See what issues are being worked on, when, and how.
+
+### [Worldmap Website](<https://worldmap.mousegobrrr.ca>)
+An interactive 3D map of the entire known world of Skyfall - plan a base, scout a base, fly around, or even walk around!
+
+### [Discord Server](<https://discord.com/channels/1304151992582672434/1308687655055392778/1308691538166939710>)
+The center of the action; home to updates, downloads, news, help, and calls! Currently, this server is invite-only :/
+
+### [Uptime Website](<https://uptime.mousegobrrr.ca/status/skyfall>)
+See live reports of downtime / outages, maintenance postings, uptime history, etc.
+
+### [FAQ (Discord)](<https://discord.com/channels/1304151992582672434/1310071813753143327>)
+This mega-helpful collection of frequently asked questions is ~~99%~~ (a solid) 65% certain to have the answer to what you're looking for. (No guarantees, no refunds, Project Skyfall is not legally responsible for any disappointment caused by this statement)
+
+### [Train Map](<https://trains.mousegobrrr.ca>)
+A detailed, live schedule of all trains on Skyfall; see trains move in real time, as well as their arrival times, departure times, and more! (WARNING: UNDER CONSTRUCTION)
