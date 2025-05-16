@@ -41,8 +41,11 @@ To join Skyfall, you'll first need a few things: _[Minecraft](<https://www.minec
 
 ## Helpful Resources :book:
 
-**[Changelogs](<https://github.com/McSnurtle/Project-Skyfall/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22type%3A%20documentation%22>)** - A comprehensive list of all changes made to Skyfall. Ever.
+### [Changelogs](<https://github.com/McSnurtle/Project-Skyfall/issues?q=is%3Aissue%20state%3Aclosed%20label%3A%22type%3A%20documentation%22>)
+A comprehensive list of all changes made to Skyfall. Ever.
 
-**[Issue Tracker](<https://github.com/McSnurtle/Project-Skyfall/issues>)** - One central place to find and upload bug reports, feature requests, and crash reports - aka the only reason Skyfall is still going. I implore you, PLEASE make an issue, voice your feedback!!
+### [Issue Tracker](<https://github.com/McSnurtle/Project-Skyfall/issues>)
+One central place to find and upload bug reports, feature requests, and crash reports - aka the only reason Skyfall is still going. I implore you, PLEASE make an issue, voice your feedback!!
 
-**[Update Progress](<https://github.com/uesrs/McSnurtle/projects/1/>)** -  See what issues are being worked on, when, and how.
+### [Update Progress](<https://github.com/uesrs/McSnurtle/projects/1/>)
+See what issues are being worked on, when, and how.
