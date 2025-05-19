@@ -12,7 +12,15 @@ body:
       label: "Changelog"
       value: |
         # *"\[Name\]" Update*<br>
+
+        All notable changes to this project from this update will be documented in this file.
+
+        The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+        and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+        
         **Download here:** [vX.Y.Z](<https://github.com/McSnurtle/Project-Skyfall/releases/tag/vX.Y.Z>)
+
+        *A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/vA.B.C...vX.Y.Z>)
   - type: textarea
     id: preview
     attributes:
@@ -24,24 +32,37 @@ body:
   - type: textarea
     id: changes
     attributes:
-      label: "Changes"
-      description: "Changes made to the modpack and server since the previous update."
+      label: "Added"
+      description: "Additions to the modpack and / or server since the previous update."
       value: |
-        *A comprehensive list of mod changes can be found [here](<https://github.com/McSnurtle/Project-Skyfall/compare/vA.B.C...vX.Y.Z>)
-        
-        **Gameplay Changes**
-        > -
-
-        **GitHub Changes**
-        > -
+        - 
     validations:
       required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Changed"
+      description: "Changes to the modpack and / or server since the previous update."
+      value: |
+        - 
+    validations:
+      required: false
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Removed"
+      description: "Removals to the modpack and / or server since the previous update."
+      value: |
+        - 
+    validations:
+      required: false
   - type: textarea
     id: fixes
     attributes:
       label: "Fixes"
       description: "Bugs that were fixed in this update."
-      value: " - "
+      value: |
+        - 
     validations:
       required: false
   - type: textarea
