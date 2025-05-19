@@ -30,7 +30,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: changes
+    id: additions
     attributes:
       label: "Added"
       description: "Additions to the modpack and / or server since the previous update."
@@ -48,7 +48,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: changes
+    id: removals
     attributes:
       label: "Removed"
       description: "Removals to the modpack and / or server since the previous update."
