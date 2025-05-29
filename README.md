@@ -5,10 +5,15 @@ The perfect clash of Factorio, Frostpunk, Stardew Valley, and all the good of Mi
 
 Originally intended to be a brutal, 1:1 earth-scale factory planning, city planning, logistics nightmare (structural integrity was even considered!), Skyfall turned into a beautiful clash of exploration, territory expansion, diplomatic relations and architecture.
 
+<details>
+<summary>
 
-## Quickstart / Installation Guide :rocket:
+  ## Quickstart / Installation Guide :rocket:
 
-To join Skyfall, you'll first need a few things: _[Minecraft](<https://www.minecraft.net/en-us>)_ - the game the project's based on, _[Forge](<https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html>)_ - the modding tool used to accomplish the wizardry that makes up Skyfall, and _[Java](<https://www.java.com/en/download/>)_ - the coding backend that makes all of it possible.<br> Next, to download Skyfall itself:
+</summary>
+  <br>
+
+  To join Skyfall, you'll first need a few things: _[Minecraft](<https://www.minecraft.net/en-us>)_ - the game the project's based on, _[Forge](<https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html>)_ - the modding tool used to accomplish the wizardry that makes up Skyfall, and _[Java](<https://www.java.com/en/download/>)_ - the coding backend that makes all of it possible.<br> Next, to download Skyfall itself:
 
 **1. Download the current release**
 - Click on the current release under the Releases section (on the right of this screen)
@@ -38,6 +43,46 @@ To join Skyfall, you'll first need a few things: _[Minecraft](<https://www.minec
 - Run the game! It's as simple as that!
 
 *It is HIGHLY ADVISED that you visit the extremely helpful* [How do I download the mods?!](<https://discord.com/channels/1304151992582672434/1310082968076685344>) *post from the Discord server FAQ; it goes into much deeper detail on setting up per-modpack installations, recommended installation settings, why your game might be crashing, and more. Definitely give it a read!*
+  
+</details>
+
+
+<details>
+  <summary>
+
+  ## System Requirements :computer:
+  **:warning:CAUTION: INCOMPLETE!:warning:**
+    
+  </summary>
+  <br>
+  
+  ### System
+  | Specs | Bare Minimum | Recommended |
+  |-------|--------------|-------------|
+  | OS | | Windows 10, Linux 6.14 or above |
+  | Processor | Intel i5-6400 or similar | Ryzen 3600g or above |
+  | Memory | 8GiB dedicated | 10GiB or similar (system dependent) |
+  | Graphics | GT 1030 or above | GTX 1650 or above |
+  | Storage | 2GB | As much as possible |
+  | Additional Notes | 8GiB of RAM is used on startup, and usage generally falls off with gameplay | At a certain point, allocating additional RAM will cause extreme lag spikes due to Java's garbage collector |
+  
+  ### Settings
+  What settings are recommended for the optimal experience based on the above hardware (only impactful settings are present)
+  | Setting | Bare Minimum | Recommended |
+  |---------|--------------|-------------|
+  |||
+  
+  ### Performance
+  The expected framerates based on the above hardware and settings (ultra = high settings, with shaders)
+  | Scenario | Bare Minimum | Recommended |
+  |----------|--------------|-------------|
+  | Creative | >100 FPS | ~200 FPS |
+  | Creative (Ultra) | ~40 FPS | ~75-100 FPS |
+  | Survival | ~60-75 FPS | ~150 FPS |
+  | Survival (Ultra) | ~45-60 | ~75 FPS |
+    
+</details>
+
 
 ## Helpful Resources :book:
 
