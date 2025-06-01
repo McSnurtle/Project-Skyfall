@@ -77,7 +77,7 @@ Originally intended to be a brutal, 1:1 earth-scale factory planning, city plann
   | Scenario | Bare Minimum | Recommended |
   |----------|--------------|-------------|
   | Creative | >100 FPS | ~200 FPS |
-  | Creative (Ultra) | ~40 FPS | ~75-100 FPS |
+  | Creative (Ultra) | >50 FPS | ~75-100 FPS |
   | Survival | ~60-75 FPS | ~150 FPS |
   | Survival (Ultra) | ~45-60 | ~75 FPS |
     
