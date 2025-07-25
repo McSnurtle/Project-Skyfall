@@ -47,6 +47,12 @@ body:
       label: "When was the feature added?"
       description: |
         In which update was this feature added?
+      options:
+        - v2.0
+        - v1.8.1
+        - v1.8
+        - v1.7.2
+        - Older
       placeholder: |
         v2.0
     validations:
