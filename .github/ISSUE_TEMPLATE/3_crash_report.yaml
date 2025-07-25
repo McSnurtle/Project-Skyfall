@@ -1,7 +1,7 @@
 name: "Crash report"
 description: "A detail of a crash and a walkthrough of all its errors"
 title: "[Crash] while bombing"
-labels: ["bug", "crashreport", "unknown"]
+labels: ["type: bug", "type: crashreport", "priority: high"]
 assignees: ["McSnurtle"]
 projects: ["McSnurtle/1"]
 
@@ -48,6 +48,19 @@ body:
         - "Yes"
         - "No"
       default: 1
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform"
+      description: "What operating system were you on when you found the bug?"
+      options:
+        - "Linux"
+        - "Windows 10"
+        - "Windows 11"
+        - "MacOS"
+      default: 3
     validations:
       required: true
   - type: textarea

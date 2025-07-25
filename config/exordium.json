@@ -7,7 +7,7 @@
   "chatSettings": {
     "enabled": true,
     "maxFps": 20,
-    "forceBlend": true,
+    "forceBlend": false,
     "forceUpdates": false
   },
   "debugScreenSettings": {
@@ -29,10 +29,10 @@
     "forceUpdates": true
   },
   "healthSettings": {
-    "enabled": true,
+    "enabled": false,
     "maxFps": 20,
     "forceBlend": false,
-    "forceUpdates": false
+    "forceUpdates": true
   },
   "scoreboardSettings": {
     "enabled": true,
@@ -44,7 +44,7 @@
     "enabled": true,
     "maxFps": 20,
     "forceBlend": false,
-    "forceUpdates": true
+    "forceUpdates": false
   },
   "vignetteSettings": {
     "enabled": true,

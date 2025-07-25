@@ -1,7 +1,7 @@
 name: "Feature test"
 description: "Track the testing of a feature"
 title: "[Test] Cheese Burgers"
-labels: ["feature"]
+labels: ["type: test"]
 assignees: ["McSnurtle"]
 projects: ["McSnurtle/2"]
 
@@ -32,6 +32,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: platform
+    attributes:
+      label: "What platform does this need testing on?"
+      description: |
+        Select the operating system(s) that this feature needs testing on to be 100% confirmed working.
+      options:
+        - Windows
+        - GNU/Linux (x11)
+        - GNU/Linux (wayland)
+  - type: input
     id: update
     attributes:
       label: "When was the feature added?"
@@ -43,6 +53,8 @@ body:
         - v1.8
         - v1.7.2
         - Older
+      placeholder: |
+        v2.0
     validations:
       required: true
   - type: dropdown
