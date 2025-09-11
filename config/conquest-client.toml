@@ -1,0 +1,25 @@
+
+[tutorials]
+	ignore_dependencies = true
+	ignore_intro = false
+	using_modpack = false
+
+[palette]
+	#Controls how large items get when your cursor moves towards them
+	zoom_scale = 1.1
+	#Controls the number of items that are affected by the zoom effect
+	#Range: 0.0 ~ 1.0
+	zoom_spread = 1.0
+	#Controls the size of the colored highlight around items
+	#Range: 1.0 ~ 2.0
+	highlight_size = 1.1
+	#The highlight color around idle items
+	highlight_color = "#000000"
+	#The highlight color around the item under your cursor
+	hovered_color = "#808080"
+	#The highlight color around the selected/dragged item
+	selected_color = "#FFFFFF"
+
+[secrets]
+	state_picker_gui = true
+
