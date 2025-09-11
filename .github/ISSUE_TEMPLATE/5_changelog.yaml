@@ -39,7 +39,7 @@ body:
   - type: textarea
     id: fixes
     attributes:
-      label: "Fixes"
+      label: "Fixed"
       description: "Bugs that were fixed in this update."
       value: " - "
     validations:
