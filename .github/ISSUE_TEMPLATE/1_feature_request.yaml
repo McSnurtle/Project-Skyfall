@@ -34,18 +34,18 @@ body:
   - type: dropdown
     id: systems
     attributes:
-      label: "Which pre-existing system does this feature tie into?"
+      label: "What would have to be changed to implement / remove this?"
       description: |
-        What systems would obviously conflict with or impede the implementation / removal of this feature?
+        What __pre-existing__ systems would obviously have to be changed to accomodate the implementation / removal of this feature?
       multiple: true
       options:
-        - Terrain
-        - Structure generation
-        - Gameplay balancing
+        - Configs
+        - Mods
+        - Datapacks
         - Recipes
-        - UI
-        - Mod compatibility
-        - Other
+        - Networking
+        - Discord
+        - Github
         - N/A
     validations:
       required: true
